@@ -1,4 +1,4 @@
-package cn.stackframe.cloudalibaba.dubboprovider;
+package cn.stackframe.dubboprovider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package cn.stackframe.cloudalibaba.dubboprovider;
+package cn.stackframe.dubboprovider;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

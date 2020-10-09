@@ -14,15 +14,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package cn.stackframe.cloudalibaba.dubboprovider.nacosdiscovery;
+ package cn.stackframe.dubboconsumer.demos.nacosdiscoveryconsumer;
 
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
- */
-@EnableDiscoveryClient
 @Configuration
-public class NacosDiscoveryConfiguration {
+@EnableFeignClients // 激活 @FeignClient
+public class NacosDiscoveryConsumerConfiguration {
+
 }
